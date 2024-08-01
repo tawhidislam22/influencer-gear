@@ -56,7 +56,7 @@
 .btn-primary{
     border-radius: 2.5rem;
 
-    background: rgb(224, 44, 109);
+    background-color: rgb(224, 44, 109);
     padding: .7rem .95rem;
     border: none;
     color: rgb(255, 255, 255);
@@ -69,6 +69,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    
+}
+.banner-child-2 img{
+    width: 100%;
 }
 /* banner style end here */
 
@@ -81,3 +85,41 @@
     border-top: 1px inset rgb(170, 170, 170);
 }
 /* companies section starts here */
+
+
+/* featured section starts here */
+.featured{
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.feature-image{
+    width: 35%;
+
+}
+.feature-image img{
+    width: 100%;
+}
+.feature-content{
+    width: 55%;
+
+}
+.feature-content h1{
+    color: rgb(10, 8, 38);
+font-size: 2.2rem;
+font-weight: 700;
+}
+.feature-content p{
+    color: rgb(108, 108, 108);
+font-size: 16px;
+font-weight: 700;
+margin-top: 1.5rem;
+}
+.feature-content button{
+    background-color: rgb(224, 44, 109);
+    padding: .7rem 1.5rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+/* featured section ends here */
