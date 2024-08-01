@@ -71,3 +71,13 @@
     background-size: contain;
 }
 /* banner style end here */
+
+
+/* companies section starts here */
+.companies{
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px inset rgb(170, 170, 170);
+}
+/* companies section starts here */
