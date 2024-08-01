@@ -64,6 +64,9 @@
    font-weight: 700;
    margin-top: 1.3rem;
 }
+.btn-primary i{
+    margin-left: .5rem;
+}
 .banner-child-2{
     background-image: url('../images/Circle\ design.svg');
     background-position: center;
@@ -82,7 +85,8 @@
     padding: 2rem 3rem;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px inset rgb(170, 170, 170);
+    /* border-top: 1px inset rgb(170, 170, 170); */
+    /* box-shadow:  5px  rgba(170, 170, 170, 0.352); */
 }
 /* companies section starts here */
 
@@ -117,9 +121,43 @@ font-weight: 700;
 margin-top: 1.5rem;
 }
 .feature-content button{
+    color: rgb(255, 255, 255);
     background-color: rgb(224, 44, 109);
     padding: .7rem 1.5rem;
     border: none;
     margin-top: 1.5rem;
 }
+.feature-content button i{
+    margin-left: .5rem;
+}
 /* featured section ends here */
+
+
+/* footer section starts here */
+footer{
+    padding: 2rem ;
+    color: white;
+    background-color: rgb(10, 8, 38);
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer h3{
+    font-size: 1.5rem;
+font-weight: 700;
+}
+footer p{
+    font-size: .65rem;
+    font-weight: 700;
+    margin-top: .5rem;
+}
+footer i{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+
+}
+/* footer section ends here */
