@@ -17,6 +17,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.navbar #menu{
+    display: none;
+}
 .navbar h4{
     color: rgb(58, 58, 58);
     font-size: 1.5rem;
@@ -28,6 +31,10 @@
     color: rgb(58, 58, 58);
     font-size: 1rem;
     font-weight: 600;
+}
+.navbar .items{
+    display: flex;
+    gap: .7rem;
 }
 /* navbar style end here */
 
@@ -83,6 +90,8 @@
 /* companies section starts here */
 .companies{
     padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
     justify-content: space-between;
     align-items: center;
     /* border-top: 1px inset rgb(170, 170, 170); */
@@ -234,3 +243,48 @@ footer i{
 
 }
 /* footer section ends here */
+
+/* responsive style starts here */
+@media screen and (max-width:570px){
+    .navbar #menu{
+        display: block;
+    }
+    .navbar .items{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+    .companies{
+        grid-template-columns: repeat(4,1fr);
+        
+
+    }
+    .main-card{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    .featured{
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+    .feature-image{
+        width: 90%;
+        margin-top: 1.5rem;
+    }
+    .feature-content{
+        width: 90%;
+
+    }
+}
+
+/* responsive style ends here */
